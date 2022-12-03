@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "caption":"Icon 1",
+        "icon":"images/news/news-1.jpg"
+    },
+    {
+        "id":2,
+        "caption":"Icon 2",
+        "icon":"images/news/news-2.jpg"
+    },
+    {
+        "id":3,
+        "caption":"Icon 3",
+        "icon":"images/news/news-3.jpg"
+    },
+    {
+        "id":4,
+        "caption":"Icon 4",
+        "icon":"images/news/news-4.jpg"
+    },
+    {
+        "id":5,
+        "caption":"Icon 5",
+        "icon":"images/news/news-5.jpg"
+    },
+    {
+        "id":6,
+        "caption":"Icon 6",
+        "icon":"images/news/news-6.jpg"
+    },
+    {
+        "id":7,
+        "caption":"Icon 7",
+        "icon":"images/news/news-7.jpg"
+    },
+    {
+        "id":8,
+        "caption":"Icon 8",
+        "icon":"images/news/news-8.jpg"
+    }
+]
