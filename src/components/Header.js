@@ -8,19 +8,34 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Header() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+    <Navbar fixed="top" bg="light" expand="lg">
+      <Container fluid className="p-0">
+        <Navbar.Brand className="px-4" href="/">
+          The YAY Company
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" className="px-4" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/news">News</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+          <Nav className="me-auto my-2 my-lg-0 gap-3" navbarScroll>
+            <NavLink className="navbar-a-toggler py-2 px-5" to="/">
+              Home
+            </NavLink>
+            <NavLink className="navbar-a-toggler py-2 px-5" to="/news">
+              News
+            </NavLink>
+            <NavLink className="navbar-a-toggler  py-2 px-5" to="/contact">
+              Contact
+            </NavLink>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search" />
-            <Button variant="outline-success">Search</Button>
+          <Form className="d-flex my-2 px-4">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-0 rounded-0 rounded-start"
+              aria-label="Search"
+            />
+            <Button variant="secrch-secondary" className="secrch-secondary rounded-0 rounded-end">
+              Go
+            </Button>
           </Form>
         </Navbar.Collapse>
       </Container>

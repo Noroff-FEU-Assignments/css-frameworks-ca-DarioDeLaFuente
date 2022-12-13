@@ -1,0 +1,6 @@
+.active > .page-link,
+.page-link:hover {
+  background-color: $bs-primary-color;
+  color: $white;
+  border: 0.5px solid $bs-primary-color;
+}
