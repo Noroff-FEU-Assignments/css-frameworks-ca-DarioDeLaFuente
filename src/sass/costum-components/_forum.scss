@@ -1,0 +1,41 @@
+.bi-envelope-fill,
+.bi-telephone-fill,
+.bi-geo-alt-fill {
+  margin: 5px;
+}
+
+.forum-box {
+  background-color: #efefef;
+  padding: 20px;
+  border-radius: 3px;
+}
+.submit,
+.submit:hover,
+.submit:focus-visible {
+  color: $white;
+  height: 58px;
+  border-radius: 4px;
+  background-color: $bs-btn-gray-bg;
+  border: none;
+}
+
+.btn-check:checked + .submit,
+:not(.btn-check) + .submit:active,
+.submit:first-child:active,
+.submit.active,
+.submit.show {
+  color: $white;
+  background-color: $bs-btn-gray-bg;
+  border-color: $bs-btn-gray-bg;
+}
+.input-group-text {
+  background-color: var(--bs-input-group-text-box);
+  color: $white;
+}
+.form-check-input:checked {
+  background-color: $bs-btn-bg;
+  border-color: $bs-btn-bg;
+}
+.form-check-input:checked[type="checkbox"] {
+  background-image: none;
+}

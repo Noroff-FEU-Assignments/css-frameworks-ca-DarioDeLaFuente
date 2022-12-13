@@ -1,0 +1,29 @@
+.navbar-brand {
+  color: $bs-primary-color;
+  font-size: 20px;
+  font-weight: 400;
+  &:hover {
+    color: $bs-primary-color;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.navbar-a-toggler {
+  font-size: 15px;
+  text-transform: capitalize;
+  width: 100%;
+}
+.active > .navbar-a-toggler,
+.navbar-a-toggler:hover,
+.navbar-a-toggler:focus {
+  background-color: $white;
+  border-radius: 3px;
+}

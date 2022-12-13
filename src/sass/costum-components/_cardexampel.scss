@@ -1,0 +1,38 @@
+.card {
+  @include card-style;
+}
+.card-title {
+  color: #0a0a0a;
+  font-weight: 500;
+}
+.card-text {
+  font-size: 18px;
+  color: #767676;
+  font-weight: 500;
+}
+.card-btn {
+  width: 100%;
+}
+.card-label-btn,
+.card-label-btn:hover,
+.card-label-btn:active,
+.card-label-btn:focus,
+.card-label-btn:first-child:active {
+  width: 90%;
+  background-color: $bs-btn-bg;
+  color: $white;
+  border: none;
+}
+
+.card-label-btn-right,
+.card-label-btn-right:hover,
+.card-label-btn-right:active,
+.card-label-btn-right:focus,
+.card-label-btn-right:first-child:active {
+  width: 10%;
+  background-color: $bs-btn-gray-bg;
+  border: none;
+}
+.secondary:active {
+  background-color: $bs-btn-gray-bg;
+}

@@ -1,0 +1,18 @@
+*body {
+  @extend .d-flex, .flex-column, .min-vh-100;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+
+/**
+A @extend 4 the footer boxes
+**/
+._footer-box-start {
+  @extend .mb-0, .text-center, .text-lg-start;
+}
+._footer-box-center {
+  @extend .mb-0, .text-start, .text-lg-center;
+}
+._footer-box-end {
+  @extend .mb-0, .text-end, .text-lg-end;
+}

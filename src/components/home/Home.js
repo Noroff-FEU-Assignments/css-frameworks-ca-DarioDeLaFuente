@@ -9,13 +9,13 @@ import TitleExample from "../TitleExample";
 function Home() {
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper mt-3 pt-5 pb-5">
         <CarouseExample></CarouseExample>
-        <Container fluid className="container">
+        <Container className="p-4">
           <TitleExample name="We do YAY things"></TitleExample>
           <TextExample></TextExample>
         </Container>
-        <TabsExample></TabsExample>
+        <TabsExample className=""></TabsExample>
       </div>
       <div>
         <Footer></Footer>

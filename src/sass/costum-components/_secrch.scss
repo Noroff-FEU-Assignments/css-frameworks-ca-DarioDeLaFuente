@@ -1,0 +1,11 @@
+.form-control {
+  border: none;
+}
+
+.btn-secrch-secondary,
+.btn-secrch-secondary:focus,
+.btn-secrch-secondary:hover {
+  background-color: $bs-primary-color;
+  border: $bs-primary-color;
+  color: $white;
+}

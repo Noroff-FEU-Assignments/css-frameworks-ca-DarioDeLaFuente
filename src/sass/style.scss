@@ -1,3 +1,21 @@
-@import "partials/base";
-@import "partials/layout";
-@import "partials/typography";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//
+@import "overrides/variables";
+//
+@import "costum-components/mixins";
+@import "costum-components/base";
+@import "costum-components/cardexampel";
+@import "costum-components/carousel";
+@import "costum-components/extend";
+@import "costum-components/font";
+@import "costum-components/footer";
+@import "costum-components/forum";
+@import "costum-components/functions";
+@import "costum-components/layout";
+@import "costum-components/nav";
+@import "costum-components/paginator";
+@import "costum-components/secrch";
+@import "costum-components/tabs";
+@import "costum-components/typography";
+@import "costum-components/variables";

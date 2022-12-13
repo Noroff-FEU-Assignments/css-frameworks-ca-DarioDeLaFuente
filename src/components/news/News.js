@@ -5,37 +5,20 @@ import Col from "react-bootstrap/Col";
 import TitleExample from "../TitleExample";
 import CardExampel from "../CardExampel";
 import Footer from "../Footer";
-import PaginationExample from "../PaginationExample";
 
 function News() {
   return (
     <>
       <div className="wrapper">
         <Container>
-          <PaginationExample></PaginationExample>
           <Row>
             <Col xs={12}>
               <TitleExample name="NEWS"></TitleExample>
             </Col>
           </Row>
-          <Row>
-            <Col xs={12} md={2}>
-              <CardExampel></CardExampel>
-            </Col>
-            <Col xs={12} md={2}>
-              <CardExampel></CardExampel>
-            </Col>
-            <Col xs={12} md={2}>
-              <CardExampel></CardExampel>
-            </Col>
-            <Col xs={12} md={2}>
-              <CardExampel></CardExampel>
-            </Col>
-            <Col xs={12} md={2}>
-              <CardExampel></CardExampel>
-            </Col>
+          <Row className="justify-content-md-center p-2 ">
+            <CardExampel></CardExampel>
           </Row>
-          <PaginationExample></PaginationExample>
         </Container>
       </div>
       <div>

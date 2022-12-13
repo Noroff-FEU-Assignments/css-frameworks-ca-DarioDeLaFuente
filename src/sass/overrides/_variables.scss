@@ -1,0 +1,24 @@
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
+
+$bs-primary-color: #e92569;
+$bs-light-rgb: 239, 239, 239;
+$bs-icon-bg: #767676;
+$bs-input-group-text-box: #c7c7c7;
+$bs-btn-bg: #e92569;
+$bs-btn-gray-bg: #767676;
+$bs-btn-active-bg: #767676;
+$bs-tabs-btn: #d1d1d1;
+
+$colors: (
+  "white": $white,
+  "black": $black,
+);
